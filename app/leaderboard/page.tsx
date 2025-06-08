@@ -1,14 +1,14 @@
 // app/leaderboard/page.tsx
 import db from '@/lib/db';
 import Link from 'next/link';
-
+import { LeaderBoardData } from '../../types/leaderboard.type';
 export const dynamic = 'force-dynamic'; // enable server-side fetching
 
 export default async function LeaderboardPage() {
     // Directly query the database
     const rows = db
         .prepare("SELECT id, name, score, created_at FROM leaderboard ORDER BY score DESC LIMIT 100")
-        .all();
+        .all() as LeaderBoardData;
 
     return (
         <main className="min-h-screen bg-gray-100 flex justify-center items-center p-6">
