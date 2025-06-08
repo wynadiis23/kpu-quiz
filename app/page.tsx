@@ -61,7 +61,7 @@ export default function Home() {
     if (next < questions.length) {
       setCurrentQuestion(next);
     } else {
-      const correct = updatedAnswers.filter((ans, i) => ans === questions[i].answer).length;
+      const correct = updatedAnswers.filter((ans, i) => ans.toLowerCase() === questions[i].answer.toLowerCase()).length;
       console.log('Final Score:', correct);
 
       // Submit score to leaderboard
