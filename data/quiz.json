@@ -1,0 +1,497 @@
+[
+    {
+        "id": 1,
+        "question": "Apa kepanjangan dari KPU?",
+        "options": [
+            "Komisi Pemberantasan Umum",
+            "Komisi Pemilihan Umum",
+            "Komite Pemilu Utama",
+            "Komisi Pengawas Umum"
+        ],
+        "answer": "Komisi Pemilihan Umum"
+    },
+    {
+        "id": 2,
+        "question": "Apa dasar hukum utama yang mengatur penyelenggaraan Pemilu di Indonesia?",
+        "options": [
+            "UU No. 5 Tahun 2014",
+            "UU No. 7 Tahun 2017",
+            "UU No. 2 Tahun 2002",
+            "UU No. 23 Tahun 2014"
+        ],
+        "answer": "UU No. 7 Tahun 2017"
+    },
+    {
+        "id": 3,
+        "question": "Apa tugas utama dari KPU menurut UU?",
+        "options": [
+            "Mengawasi jalannya pemilu",
+            "Menetapkan calon presiden",
+            "Menyelenggarakan pemilu dan pilkada",
+            "Mengatur pelantikan pejabat"
+        ],
+        "answer": "Menyelenggarakan pemilu dan pilkada"
+    },
+    {
+        "id": 4,
+        "question": "Apa saja asas penyelenggaraan Pemilu di Indonesia?",
+        "options": [
+            "Efisien dan Efektif",
+            "Langsung, Umum, Bebas, Rahasia, Jujur, dan Adil",
+            "Netral dan Transparan",
+            "Cepat dan Akurat"
+        ],
+        "answer": "Langsung, Umum, Bebas, Rahasia, Jujur, dan Adil"
+    },
+    {
+        "id": 5,
+        "question": "Berapa jumlah anggota KPU RI saat ini?",
+        "options": [
+            "3 orang",
+            "5 orang",
+            "7 orang",
+            "9 orang"
+        ],
+        "answer": "7 orang"
+    },
+    {
+        "id": 6,
+        "question": "PKPU merupakan singkatan dari...",
+        "options": [
+            "Peraturan Kementerian Pemilu Umum",
+            "Peraturan Keputusan Publik Umum",
+            "Peraturan Komisi Pemilihan Umum",
+            "Perjanjian Komisi Pemilu Umum"
+        ],
+        "answer": "Peraturan Komisi Pemilihan Umum"
+    },
+    {
+        "id": 7,
+        "question": "PKPU digunakan untuk...",
+        "options": [
+            "Menetapkan partai politik",
+            "Mengatur tahapan dan teknis pelaksanaan Pemilu",
+            "Menyusun struktur organisasi KPU",
+            "Mewawancarai calon legislatif"
+        ],
+        "answer": "Mengatur tahapan dan teknis pelaksanaan Pemilu"
+    },
+    {
+        "id": 8,
+        "question": "Berikut ini termasuk dalam tahapan Pemilu, kecuali...",
+        "options": [
+            "Pendaftaran dan verifikasi partai politik",
+            "Penyusunan daftar pemilih",
+            "Penyusunan UU Pemilu",
+            "Pencalonan anggota legislatif"
+        ],
+        "answer": "Penyusunan UU Pemilu"
+    },
+    {
+        "id": 9,
+        "question": "Apa nama sistem KPU yang digunakan untuk merekapitulasi hasil penghitungan suara?",
+        "options": [
+            "SIDALIH",
+            "SIPOL",
+            "SIREKAP",
+            "SILON"
+        ],
+        "answer": "SIREKAP"
+    },
+    {
+        "id": 10,
+        "question": "Struktur organisasi KPU Pusat terdiri dari...",
+        "options": [
+            "Komisioner, Panwaslu, dan DKPP",
+            "Ketua, Sekretaris Jenderal, dan Bawaslu",
+            "Ketua, Anggota Komisioner, dan Sekretariat Jenderal",
+            "Ketua, Wakil Ketua, dan Anggota"
+        ],
+        "answer": "Ketua, Anggota Komisioner, dan Sekretariat Jenderal"
+    },
+    {
+        "id": 11,
+        "question": "Tahapan awal Pemilu adalah...",
+        "options": [
+            "Pemungutan suara",
+            "Penetapan hasil Pemilu",
+            "Perencanaan program dan anggaran serta penyusunan peraturan KPU",
+            "Pencalonan Presiden dan Wakil Presiden"
+        ],
+        "answer": "Perencanaan program dan anggaran serta penyusunan peraturan KPU"
+    },
+    {
+        "id": 12,
+        "question": "Apa fungsi dari Sekretariat Jenderal KPU?",
+        "options": [
+            "Menetapkan jadwal kampanye",
+            "Memberikan bantuan administrasi dan teknis kepada KPU",
+            "Mengawasi pemilu",
+            "Menangani sengketa hasil pemilu"
+        ],
+        "answer": "Memberikan bantuan administrasi dan teknis kepada KPU"
+    },
+    {
+        "id": 13,
+        "question": "KPU bersifat...",
+        "options": [
+            "Ad hoc dan independen",
+            "Sementara dan diangkat Presiden",
+            "Nasional, tetap, dan mandiri",
+            "Departemental dan operasional"
+        ],
+        "answer": "Nasional, tetap, dan mandiri"
+    },
+    {
+        "id": 14,
+        "question": "Apa kewenangan KPU dalam hal hasil pemilu?",
+        "options": [
+            "Mengesahkan Undang-Undang baru",
+            "Menetapkan dan mengumumkan hasil Pemilu",
+            "Menolak hasil pemilu",
+            "Mengadili sengketa hasil pemilu"
+        ],
+        "answer": "Menetapkan dan mengumumkan hasil Pemilu"
+    },
+    {
+        "id": 15,
+        "question": "Apa nama aplikasi untuk pencalonan DPR, DPD, dan DPRD?",
+        "options": [
+            "SIDALIH",
+            "SIREKAP",
+            "SILON",
+            "SIPOL"
+        ],
+        "answer": "SILON"
+    },
+    {
+        "id": 16,
+        "question": "Berdasarkan UU No. 7 Tahun 2017, pemilu dilaksanakan setiap...",
+        "options": [
+            "4 tahun",
+            "5 tahun",
+            "6 tahun",
+            "10 tahun"
+        ],
+        "answer": "5 tahun"
+    },
+    {
+        "id": 17,
+        "question": "Siapa yang mengangkat dan memberhentikan anggota KPU?",
+        "options": [
+            "Presiden",
+            "DPR",
+            "Komisi II DPR dan Presiden melalui Keppres",
+            "Mahkamah Agung"
+        ],
+        "answer": "Komisi II DPR dan Presiden melalui Keppres"
+    },
+    {
+        "id": 18,
+        "question": "Apa nama lembaga yang mengawasi jalannya pemilu?",
+        "options": [
+            "BPK",
+            "MA",
+            "Bawaslu",
+            "DKPP"
+        ],
+        "answer": "Bawaslu"
+    },
+    {
+        "id": 19,
+        "question": "Apa peran dari Panitia Pemilihan Kecamatan (PPK)?",
+        "options": [
+            "Menyusun PKPU",
+            "Melakukan rekapitulasi suara di tingkat kecamatan",
+            "Menetapkan calon anggota DPD",
+            "Mengelola logistik pemilu nasional"
+        ],
+        "answer": "Melakukan rekapitulasi suara di tingkat kecamatan"
+    },
+    {
+        "id": 20,
+        "question": "DKPP adalah lembaga yang bertugas untuk...",
+        "options": [
+            "Menangani pelanggaran etika penyelenggara pemilu",
+            "Mengelola anggaran pemilu",
+            "Mengatur tahapan pemilu",
+            "Menghitung suara pemilu"
+        ],
+        "answer": "Menangani pelanggaran etika penyelenggara pemilu"
+    },
+    {
+        "id": 21,
+        "question": "Apa dasar hukum pembentukan Komisi Pemilihan Umum (KPU)?",
+        "options": [
+            "Peraturan Pemerintah",
+            "Keputusan Presiden",
+            "Undang-Undang Dasar 1945",
+            "Undang-Undang Pemilu"
+        ],
+        "answer": "Undang-Undang Pemilu"
+    },
+    {
+        "id": 22,
+        "question": "Undang-undang yang menjadi dasar hukum Pemilu terbaru di Indonesia adalah?",
+        "options": [
+            "UU No. 10 Tahun 2008",
+            "UU No. 12 Tahun 2003",
+            "UU No. 7 Tahun 2017",
+            "UU No. 2 Tahun 2011"
+        ],
+        "answer": "UU No. 7 Tahun 2017"
+    },
+    {
+        "id": 23,
+        "question": "Apa kepanjangan dari PKPU?",
+        "options": [
+            "Peraturan Khusus Pemilu Umum",
+            "Peraturan Komisi Pemilu Umum",
+            "Peraturan Komisi Pemilihan Umum",
+            "Perintah Komisi Pemilihan Umum"
+        ],
+        "answer": "Peraturan Komisi Pemilihan Umum"
+    },
+    {
+        "id": 24,
+        "question": "PKPU diterbitkan oleh?",
+        "options": [
+            "DPR",
+            "Bawaslu",
+            "KPU",
+            "Presiden"
+        ],
+        "answer": "KPU"
+    },
+    {
+        "id": 25,
+        "question": "Salah satu fungsi PKPU adalah?",
+        "options": [
+            "Menetapkan calon presiden",
+            "Mengatur teknis penyelenggaraan Pemilu",
+            "Mengawasi jalannya Pemilu",
+            "Menghitung suara secara manual"
+        ],
+        "answer": "Mengatur teknis penyelenggaraan Pemilu"
+    },
+    {
+        "id": 26,
+        "question": "Apa saja tahapan penyelenggaraan Pemilu menurut UU No. 7 Tahun 2017?",
+        "options": [
+            "Kampanye, Pemungutan, Penetapan",
+            "Perencanaan, Pemungutan Suara, Rekapitulasi",
+            "Perencanaan, Pendaftaran, Kampanye, Pemungutan dan Penetapan Hasil",
+            "Pendaftaran, Kampanye, Debat, Penetapan"
+        ],
+        "answer": "Perencanaan, Pendaftaran, Kampanye, Pemungutan dan Penetapan Hasil"
+    },
+    {
+        "id": 27,
+        "question": "Struktur KPU di tingkat provinsi disebut?",
+        "options": [
+            "KPU Provinsi",
+            "KPUD Kabupaten",
+            "Panwaslu",
+            "KPU Daerah"
+        ],
+        "answer": "KPU Provinsi"
+    },
+    {
+        "id": 28,
+        "question": "KPU memiliki sifat sebagai lembaga?",
+        "options": [
+            "Pemerintah",
+            "Eksekutif",
+            "Legislatif",
+            "Penyelenggara Pemilu yang independen"
+        ],
+        "answer": "Penyelenggara Pemilu yang independen"
+    },
+    {
+        "id": 29,
+        "question": "Siapa yang mengangkat anggota KPU RI?",
+        "options": [
+            "KPU sebelumnya",
+            "Presiden dengan persetujuan DPR",
+            "Bawaslu",
+            "MA"
+        ],
+        "answer": "Presiden dengan persetujuan DPR"
+    },
+    {
+        "id": 30,
+        "question": "Jumlah anggota KPU Provinsi adalah?",
+        "options": [
+            "5–7 orang",
+            "7 orang tetap",
+            "9 orang tetap",
+            "Sesuai keputusan gubernur"
+        ],
+        "answer": "5–7 orang"
+    },
+    {
+        "id": 31,
+        "question": "Apa peran utama KPU dalam pemilu?",
+        "options": [
+            "Menentukan hasil pemilu",
+            "Melaksanakan semua tahapan pemilu",
+            "Menindak pelanggaran pemilu",
+            "Menyiapkan regulasi nasional"
+        ],
+        "answer": "Melaksanakan semua tahapan pemilu"
+    },
+    {
+        "id": 32,
+        "question": "Apa nama badan pengawas Pemilu yang bekerja berdampingan dengan KPU?",
+        "options": [
+            "KPK",
+            "Bawaslu",
+            "DKPP",
+            "MA"
+        ],
+        "answer": "Bawaslu"
+    },
+    {
+        "id": 33,
+        "question": "Kapan biasanya tahapan kampanye dilaksanakan?",
+        "options": [
+            "Setelah pemungutan suara",
+            "Setelah pendaftaran peserta",
+            "Sebelum pemungutan suara",
+            "Bersamaan dengan rekapitulasi"
+        ],
+        "answer": "Sebelum pemungutan suara"
+    },
+    {
+        "id": 34,
+        "question": "Tahapan terakhir dalam penyelenggaraan Pemilu adalah?",
+        "options": [
+            "Kampanye",
+            "Rekapitulasi suara",
+            "Penetapan hasil dan pengucapan sumpah",
+            "Pemungutan suara ulang"
+        ],
+        "answer": "Penetapan hasil dan pengucapan sumpah"
+    },
+    {
+        "id": 35,
+        "question": "Apa peran KPU Kabupaten/Kota?",
+        "options": [
+            "Mewakili DPR di daerah",
+            "Melaksanakan tahapan Pemilu di tingkat kabupaten/kota",
+            "Mengawasi pelanggaran Pemilu",
+            "Mengatur anggaran daerah"
+        ],
+        "answer": "Melaksanakan tahapan Pemilu di tingkat kabupaten/kota"
+    },
+    {
+        "id": 36,
+        "question": "Siapa yang berwenang menetapkan PKPU?",
+        "options": [
+            "Ketua DPR",
+            "Ketua KPU",
+            "Presiden",
+            "Ketua Bawaslu"
+        ],
+        "answer": "Ketua KPU"
+    },
+    {
+        "id": 37,
+        "question": "KPU bersifat tetap dan ...?",
+        "options": [
+            "Berjangka",
+            "Independen",
+            "Sementara",
+            "Bersifat musyawarah"
+        ],
+        "answer": "Independen"
+    },
+    {
+        "id": 38,
+        "question": "Salah satu isi PKPU adalah tentang?",
+        "options": [
+            "Gaji pejabat negara",
+            "Tugas kepresidenan",
+            "Tata cara pencalonan",
+            "Pengelolaan keuangan desa"
+        ],
+        "answer": "Tata cara pencalonan"
+    },
+    {
+        "id": 39,
+        "question": "Apakah PKPU harus dikonsultasikan ke DPR?",
+        "options": [
+            "Tidak perlu",
+            "Hanya jika menyangkut keuangan",
+            "Ya, wajib dikonsultasikan",
+            "Hanya jika menyangkut ASN"
+        ],
+        "answer": "Ya, wajib dikonsultasikan"
+    },
+    {
+        "id": 40,
+        "question": "Apa fungsi utama dari sistem informasi KPU seperti Sidalih dan Sirekap?",
+        "options": [
+            "Meningkatkan transparansi dan akurasi",
+            "Menghapuskan rekap manual",
+            "Mengganti kampanye fisik",
+            "Mengatur keuangan partai"
+        ],
+        "answer": "Meningkatkan transparansi dan akurasi"
+    },
+    {
+        "id": 41,
+        "question": "Tahapan penyusunan DPT termasuk dalam tahapan?",
+        "options": [
+            "Pencalonan",
+            "Pemutakhiran data pemilih",
+            "Kampanye",
+            "Penetapan hasil"
+        ],
+        "answer": "Pemutakhiran data pemilih"
+    },
+    {
+        "id": 42,
+        "question": "Anggota KPU RI terdiri dari?",
+        "options": [
+            "5 orang",
+            "7 orang",
+            "9 orang",
+            "11 orang"
+        ],
+        "answer": "7 orang"
+    },
+    {
+        "id": 43,
+        "question": "Lembaga yang menangani pelanggaran etik penyelenggara Pemilu adalah?",
+        "options": [
+            "KPU",
+            "Bawaslu",
+            "DKPP",
+            "MA"
+        ],
+        "answer": "DKPP"
+    },
+    {
+        "id": 44,
+        "question": "Penyelenggaraan Pemilu dilakukan secara?",
+        "options": [
+            "Rahasia dan terbuka",
+            "Langsung, umum, bebas, rahasia, jujur, dan adil",
+            "Online dan tertutup",
+            "Langsung dan manual saja"
+        ],
+        "answer": "Langsung, umum, bebas, rahasia, jujur, dan adil"
+    },
+    {
+        "id": 45,
+        "question": "Salah satu syarat menjadi anggota KPU RI adalah?",
+        "options": [
+            "Usia minimal 30 tahun",
+            "Anggota partai politik aktif",
+            "Memiliki jabatan struktural",
+            "Warga negara asing"
+        ],
+        "answer": "Usia minimal 30 tahun"
+    }
+]
