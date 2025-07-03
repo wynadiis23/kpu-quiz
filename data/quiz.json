@@ -8,7 +8,8 @@
             "Komite Pemilu Utama",
             "Komisi Pengawas Umum"
         ],
-        "answer": "Komisi Pemilihan Umum"
+        "answer": "Komisi Pemilihan Umum",
+        "image": null
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
             "UU No. 2 Tahun 2002",
             "UU No. 23 Tahun 2014"
         ],
-        "answer": "UU No. 7 Tahun 2017"
+        "answer": "UU No. 7 Tahun 2017",
+        "image": null
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
             "Menyelenggarakan pemilu dan pilkada",
             "Mengatur pelantikan pejabat"
         ],
-        "answer": "Menyelenggarakan pemilu dan pilkada"
+        "answer": "Menyelenggarakan pemilu dan pilkada",
+        "image": null
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
             "Netral dan Transparan",
             "Cepat dan Akurat"
         ],
-        "answer": "Langsung, Umum, Bebas, Rahasia, Jujur, dan Adil"
+        "answer": "Langsung, Umum, Bebas, Rahasia, Jujur, dan Adil",
+        "image": null
     },
     {
         "id": 5,
@@ -52,7 +56,8 @@
             "7 orang",
             "9 orang"
         ],
-        "answer": "7 orang"
+        "answer": "7 orang",
+        "image": null
     },
     {
         "id": 6,
@@ -63,7 +68,8 @@
             "Peraturan Komisi Pemilihan Umum",
             "Perjanjian Komisi Pemilu Umum"
         ],
-        "answer": "Peraturan Komisi Pemilihan Umum"
+        "answer": "Peraturan Komisi Pemilihan Umum",
+        "image": null
     },
     {
         "id": 7,
@@ -74,7 +80,8 @@
             "Menyusun struktur organisasi KPU",
             "Mewawancarai calon legislatif"
         ],
-        "answer": "Mengatur tahapan dan teknis pelaksanaan Pemilu"
+        "answer": "Mengatur tahapan dan teknis pelaksanaan Pemilu",
+        "image": null
     },
     {
         "id": 8,
@@ -85,7 +92,8 @@
             "Penyusunan UU Pemilu",
             "Pencalonan anggota legislatif"
         ],
-        "answer": "Penyusunan UU Pemilu"
+        "answer": "Penyusunan UU Pemilu",
+        "image": null
     },
     {
         "id": 9,
@@ -96,7 +104,8 @@
             "SIREKAP",
             "SILON"
         ],
-        "answer": "SIREKAP"
+        "answer": "SIREKAP",
+        "image": null
     },
     {
         "id": 10,
@@ -107,7 +116,8 @@
             "Ketua, Anggota Komisioner, dan Sekretariat Jenderal",
             "Ketua, Wakil Ketua, dan Anggota"
         ],
-        "answer": "Ketua, Anggota Komisioner, dan Sekretariat Jenderal"
+        "answer": "Ketua, Anggota Komisioner, dan Sekretariat Jenderal",
+        "image": null
     },
     {
         "id": 11,
@@ -118,7 +128,8 @@
             "Perencanaan program dan anggaran serta penyusunan peraturan KPU",
             "Pencalonan Presiden dan Wakil Presiden"
         ],
-        "answer": "Perencanaan program dan anggaran serta penyusunan peraturan KPU"
+        "answer": "Perencanaan program dan anggaran serta penyusunan peraturan KPU",
+        "image": null
     },
     {
         "id": 12,
@@ -129,7 +140,8 @@
             "Mengawasi pemilu",
             "Menangani sengketa hasil pemilu"
         ],
-        "answer": "Memberikan bantuan administrasi dan teknis kepada KPU"
+        "answer": "Memberikan bantuan administrasi dan teknis kepada KPU",
+        "image": null
     },
     {
         "id": 13,
@@ -140,7 +152,8 @@
             "Nasional, tetap, dan mandiri",
             "Departemental dan operasional"
         ],
-        "answer": "Nasional, tetap, dan mandiri"
+        "answer": "Nasional, tetap, dan mandiri",
+        "image": null
     },
     {
         "id": 14,
@@ -151,7 +164,8 @@
             "Menolak hasil pemilu",
             "Mengadili sengketa hasil pemilu"
         ],
-        "answer": "Menetapkan dan mengumumkan hasil Pemilu"
+        "answer": "Menetapkan dan mengumumkan hasil Pemilu",
+        "image": null
     },
     {
         "id": 15,
@@ -162,7 +176,8 @@
             "SILON",
             "SIPOL"
         ],
-        "answer": "SILON"
+        "answer": "SILON",
+        "image": null
     },
     {
         "id": 16,
@@ -173,7 +188,8 @@
             "6 tahun",
             "10 tahun"
         ],
-        "answer": "5 tahun"
+        "answer": "5 tahun",
+        "image": null
     },
     {
         "id": 17,
@@ -184,7 +200,8 @@
             "Komisi II DPR dan Presiden melalui Keppres",
             "Mahkamah Agung"
         ],
-        "answer": "Komisi II DPR dan Presiden melalui Keppres"
+        "answer": "Komisi II DPR dan Presiden melalui Keppres",
+        "image": null
     },
     {
         "id": 18,
@@ -195,7 +212,8 @@
             "Bawaslu",
             "DKPP"
         ],
-        "answer": "Bawaslu"
+        "answer": "Bawaslu",
+        "image": null
     },
     {
         "id": 19,
@@ -206,7 +224,8 @@
             "Menetapkan calon anggota DPD",
             "Mengelola logistik pemilu nasional"
         ],
-        "answer": "Melakukan rekapitulasi suara di tingkat kecamatan"
+        "answer": "Melakukan rekapitulasi suara di tingkat kecamatan",
+        "image": null
     },
     {
         "id": 20,
@@ -217,7 +236,8 @@
             "Mengatur tahapan pemilu",
             "Menghitung suara pemilu"
         ],
-        "answer": "Menangani pelanggaran etika penyelenggara pemilu"
+        "answer": "Menangani pelanggaran etika penyelenggara pemilu",
+        "image": null
     },
     {
         "id": 21,
@@ -228,7 +248,8 @@
             "Undang-Undang Dasar 1945",
             "Undang-Undang Pemilu"
         ],
-        "answer": "Undang-Undang Pemilu"
+        "answer": "Undang-Undang Pemilu",
+        "image": null
     },
     {
         "id": 22,
@@ -239,7 +260,8 @@
             "UU No. 7 Tahun 2017",
             "UU No. 2 Tahun 2011"
         ],
-        "answer": "UU No. 7 Tahun 2017"
+        "answer": "UU No. 7 Tahun 2017",
+        "image": null
     },
     {
         "id": 23,
@@ -250,7 +272,8 @@
             "Peraturan Komisi Pemilihan Umum",
             "Perintah Komisi Pemilihan Umum"
         ],
-        "answer": "Peraturan Komisi Pemilihan Umum"
+        "answer": "Peraturan Komisi Pemilihan Umum",
+        "image": null
     },
     {
         "id": 24,
@@ -261,7 +284,8 @@
             "KPU",
             "Presiden"
         ],
-        "answer": "KPU"
+        "answer": "KPU",
+        "image": null
     },
     {
         "id": 25,
@@ -272,7 +296,8 @@
             "Mengawasi jalannya Pemilu",
             "Menghitung suara secara manual"
         ],
-        "answer": "Mengatur teknis penyelenggaraan Pemilu"
+        "answer": "Mengatur teknis penyelenggaraan Pemilu",
+        "image": null
     },
     {
         "id": 26,
@@ -283,7 +308,8 @@
             "Perencanaan, Pendaftaran, Kampanye, Pemungutan dan Penetapan Hasil",
             "Pendaftaran, Kampanye, Debat, Penetapan"
         ],
-        "answer": "Perencanaan, Pendaftaran, Kampanye, Pemungutan dan Penetapan Hasil"
+        "answer": "Perencanaan, Pendaftaran, Kampanye, Pemungutan dan Penetapan Hasil",
+        "image": null
     },
     {
         "id": 27,
@@ -294,7 +320,8 @@
             "Panwaslu",
             "KPU Daerah"
         ],
-        "answer": "KPU Provinsi"
+        "answer": "KPU Provinsi",
+        "image": null
     },
     {
         "id": 28,
@@ -305,7 +332,8 @@
             "Legislatif",
             "Penyelenggara Pemilu yang independen"
         ],
-        "answer": "Penyelenggara Pemilu yang independen"
+        "answer": "Penyelenggara Pemilu yang independen",
+        "image": null
     },
     {
         "id": 29,
@@ -316,7 +344,8 @@
             "Bawaslu",
             "MA"
         ],
-        "answer": "Presiden dengan persetujuan DPR"
+        "answer": "Presiden dengan persetujuan DPR",
+        "image": null
     },
     {
         "id": 30,
@@ -327,7 +356,8 @@
             "9 orang tetap",
             "Sesuai keputusan gubernur"
         ],
-        "answer": "5–7 orang"
+        "answer": "5–7 orang",
+        "image": null
     },
     {
         "id": 31,
@@ -338,7 +368,8 @@
             "Menindak pelanggaran pemilu",
             "Menyiapkan regulasi nasional"
         ],
-        "answer": "Melaksanakan semua tahapan pemilu"
+        "answer": "Melaksanakan semua tahapan pemilu",
+        "image": null
     },
     {
         "id": 32,
@@ -349,7 +380,8 @@
             "DKPP",
             "MA"
         ],
-        "answer": "Bawaslu"
+        "answer": "Bawaslu",
+        "image": null
     },
     {
         "id": 33,
@@ -360,7 +392,8 @@
             "Sebelum pemungutan suara",
             "Bersamaan dengan rekapitulasi"
         ],
-        "answer": "Sebelum pemungutan suara"
+        "answer": "Sebelum pemungutan suara",
+        "image": null
     },
     {
         "id": 34,
@@ -371,7 +404,8 @@
             "Penetapan hasil dan pengucapan sumpah",
             "Pemungutan suara ulang"
         ],
-        "answer": "Penetapan hasil dan pengucapan sumpah"
+        "answer": "Penetapan hasil dan pengucapan sumpah",
+        "image": null
     },
     {
         "id": 35,
@@ -382,7 +416,8 @@
             "Mengawasi pelanggaran Pemilu",
             "Mengatur anggaran daerah"
         ],
-        "answer": "Melaksanakan tahapan Pemilu di tingkat kabupaten/kota"
+        "answer": "Melaksanakan tahapan Pemilu di tingkat kabupaten/kota",
+        "image": null
     },
     {
         "id": 36,
@@ -393,7 +428,8 @@
             "Presiden",
             "Ketua Bawaslu"
         ],
-        "answer": "Ketua KPU"
+        "answer": "Ketua KPU",
+        "image": null
     },
     {
         "id": 37,
@@ -404,7 +440,8 @@
             "Sementara",
             "Bersifat musyawarah"
         ],
-        "answer": "Independen"
+        "answer": "Independen",
+        "image": null
     },
     {
         "id": 38,
@@ -415,7 +452,8 @@
             "Tata cara pencalonan",
             "Pengelolaan keuangan desa"
         ],
-        "answer": "Tata cara pencalonan"
+        "answer": "Tata cara pencalonan",
+        "image": null
     },
     {
         "id": 39,
@@ -426,7 +464,8 @@
             "Ya, wajib dikonsultasikan",
             "Hanya jika menyangkut ASN"
         ],
-        "answer": "Ya, wajib dikonsultasikan"
+        "answer": "Ya, wajib dikonsultasikan",
+        "image": null
     },
     {
         "id": 40,
@@ -437,7 +476,8 @@
             "Mengganti kampanye fisik",
             "Mengatur keuangan partai"
         ],
-        "answer": "Meningkatkan transparansi dan akurasi"
+        "answer": "Meningkatkan transparansi dan akurasi",
+        "image": null
     },
     {
         "id": 41,
@@ -448,7 +488,8 @@
             "Kampanye",
             "Penetapan hasil"
         ],
-        "answer": "Pemutakhiran data pemilih"
+        "answer": "Pemutakhiran data pemilih",
+        "image": null
     },
     {
         "id": 42,
@@ -459,7 +500,8 @@
             "9 orang",
             "11 orang"
         ],
-        "answer": "7 orang"
+        "answer": "7 orang",
+        "image": null
     },
     {
         "id": 43,
@@ -470,7 +512,8 @@
             "DKPP",
             "MA"
         ],
-        "answer": "DKPP"
+        "answer": "DKPP",
+        "image": null
     },
     {
         "id": 44,
@@ -481,7 +524,8 @@
             "Online dan tertutup",
             "Langsung dan manual saja"
         ],
-        "answer": "Langsung, umum, bebas, rahasia, jujur, dan adil"
+        "answer": "Langsung, umum, bebas, rahasia, jujur, dan adil",
+        "image": null
     },
     {
         "id": 45,
@@ -492,6 +536,7 @@
             "Memiliki jabatan struktural",
             "Warga negara asing"
         ],
-        "answer": "Usia minimal 30 tahun"
+        "answer": "Usia minimal 30 tahun",
+        "image": null
     }
 ]

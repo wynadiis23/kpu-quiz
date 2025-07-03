@@ -3,5 +3,6 @@ export type QuizQuestion = {
   question: string;
   options: string[];
   answer: string;
+  image?: string | null;
 };
 export type QuizData = QuizQuestion[];
