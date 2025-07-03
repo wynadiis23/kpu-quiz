@@ -1,9 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import quizData from '../data/quiz.json';
+import sotkData from '../data/sotk.json';
 import { useRouter } from 'next/navigation';
 import { generateRandomUsername } from '../utils/generateName';
+import { QuizData } from '../types/quiz.type';
 
 const QUESTION_TIME_LIMIT = 15;
 
@@ -14,16 +17,23 @@ function shuffle<T>(array: T[]): T[] {
 export default function Home() {
   const [username, setUsername] = useState('');
   const [hasStarted, setHasStarted] = useState(false);
-  const [questions, setQuestions] = useState<typeof quizData>([]);
+  const [questions, setQuestions] = useState<QuizData>([]);
   const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [timer, setTimer] = useState(QUESTION_TIME_LIMIT);
   const router = useRouter();
 
+  const [quizType, setQuizType] = useState<'default' | 'sotk'>('default');
+
   useEffect(() => {
-    setQuestions(shuffle(quizData));
-  }, []);
+    // Load quiz data based on selected type
+    if (quizType === 'default') {
+      setQuestions(shuffle(quizData));
+    } else if (quizType === 'sotk') {
+      setQuestions(shuffle(sotkData));
+    }
+  }, [quizType]);
 
   useEffect(() => {
     if (questions.length > 0) {
@@ -84,6 +94,24 @@ export default function Home() {
       <main className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
         <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-md text-center">
           <h1 className="text-2xl font-bold mb-4">Welcome to the Quiz!</h1>
+          <div className="mb-4 flex flex-col gap-2">
+            <span className="text-sm font-medium text-gray-700">Select Quiz:</span>
+            <div className="flex gap-2 justify-center">
+              <button
+                className={`px-4 py-2 rounded-lg border ${quizType === 'default' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
+                onClick={() => setQuizType('default')}
+              >
+                Default
+              </button>
+              <button
+                className={`px-4 py-2 rounded-lg border ${quizType === 'sotk' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
+                onClick={() => setQuizType('sotk')}
+              >
+                SOTK
+              </button>
+              {/* Add more buttons for other quiz types if needed */}
+            </div>
+          </div>
           <label className="block mb-4 text-left">
             <span className="text-sm font-medium text-gray-700">Enter your name:</span>
             <input
@@ -110,6 +138,19 @@ export default function Home() {
       <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-xl text-center">
         <h1 className="text-2xl font-bold mb-2">Quiz App</h1>
         <p className="text-red-500 font-semibold mb-4">⏳ {timer}s</p>
+        {current?.image && (
+          <div className="mx-auto mb-4 max-h-48 rounded-lg shadow relative" style={{ width: '100%', height: '192px' }}>
+            <Image
+              src={current.image}
+              alt="Question Illustration"
+              layout="fill"
+              objectFit="contain"
+              className="rounded-lg"
+              priority
+            />
+          </div>
+        )}
+
         <h2 className="text-lg font-medium mb-6">
           Q{currentQuestion + 1}: {current.question}
         </h2>

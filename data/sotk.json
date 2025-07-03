@@ -1,0 +1,302 @@
+[
+    {
+        "id": 46,
+        "question": "Siapakah Ketua KPU RI periode 2022–2027?",
+        "options": [
+            "Betty Epsilon Idroos",
+            "Idham Holik",
+            "Hasyim Asy’ari",
+            "August Mellaz"
+        ],
+        "answer": "Hasyim Asy’ari",
+        "image": null
+    },
+    {
+        "id": 47,
+        "question": "Siapa yang menjabat sebagai Sekretaris Jenderal KPU RI saat ini?",
+        "options": [
+            "Eberta Kawima",
+            "Bernad Dermawan Sutrisno",
+            "Mashur Sampurna Jaya",
+            "Suryadi"
+        ],
+        "answer": "Bernad Dermawan Sutrisno",
+        "image": null
+    },
+    {
+        "id": 48,
+        "question": "Berapa jumlah anggota KPU RI periode 2022–2027?",
+        "options": [
+            "5 orang",
+            "7 orang",
+            "9 orang",
+            "11 orang"
+        ],
+        "answer": "7 orang",
+        "image": null
+    },
+    {
+        "id": 49,
+        "question": "Siapa anggota KPU RI yang bertanggung jawab atas Divisi Data dan Informasi?",
+        "options": [
+            "Mochammad Afifuddin",
+            "Yulianto Sudrajat",
+            "Betty Epsilon Idroos",
+            "August Mellaz"
+        ],
+        "answer": "Betty Epsilon Idroos",
+        "image": null
+    },
+    {
+        "id": 50,
+        "question": "Divisi Hukum dan Pengawasan dikoordinatori oleh siapa?",
+        "options": [
+            "Yulianto Sudrajat",
+            "Parsadaan Harahap",
+            "Mochammad Afifuddin",
+            "Idham Holik"
+        ],
+        "answer": "Mochammad Afifuddin",
+        "image": null
+    },
+    {
+        "id": 51,
+        "question": "Deputi Bidang Dukungan Teknis KPU RI dijabat oleh siapa?",
+        "options": [
+            "Suryadi",
+            "Eberta Kawima",
+            "Yuli Hertaty",
+            "Ilham, Ph.D"
+        ],
+        "answer": "Eberta Kawima",
+        "image": null
+    },
+    {
+        "id": 52,
+        "question": "Siapa Kepala Biro yang menangani logistik di KPU RI?",
+        "options": [
+            "Nur Wakit Aliyusron",
+            "Novy Hasbhy Munnawar",
+            "Kusmanto R. Djo Naga",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Novy Hasbhy Munnawar",
+        "image": null
+    },
+    {
+        "id": 53,
+        "question": "Apa jabatan Ilham, Ph.D. di struktur Sekjen KPU?",
+        "options": [
+            "Deputi Bidang Administrasi",
+            "Kepala Biro SDM",
+            "Kepala Pusat Pengembangan Kompetensi SDM",
+            "Kepala Biro Keuangan"
+        ],
+        "answer": "Kepala Pusat Pengembangan Kompetensi SDM",
+        "image": null
+    },
+    {
+        "id": 54,
+        "question": "Anggota KPU RI Idham Holik memimpin divisi apa?",
+        "options": [
+            "Teknis Penyelenggaraan",
+            "Data & Informasi",
+            "Hukum",
+            "Partisipasi Masyarakat"
+        ],
+        "answer": "Teknis Penyelenggaraan",
+        "image": null
+    },
+    {
+        "id": 55,
+        "question": "Divisi SDM, Organisasi, Diklat dan Litbang dipimpin oleh?",
+        "options": [
+            "Idham Holik",
+            "Parsadaan Harahap",
+            "Yulianto Sudrajat",
+            "Betty Epsilon Idroos"
+        ],
+        "answer": "Parsadaan Harahap",
+        "image": null
+    },
+    {
+        "id": 56,
+        "question": "Siapa Wakil Ketua Divisi Sosialisasi, Pendidikan Pemilih dan Parmas?",
+        "options": [
+            "August Mellaz",
+            "Betty Epsilon Idroos",
+            "Parsadaan Harahap",
+            "Mochammad Afifuddin"
+        ],
+        "answer": "Betty Epsilon Idroos",
+        "image": null
+    },
+    {
+        "id": 57,
+        "question": "Koordinator wilayah untuk Jawa Timur dijabat oleh?",
+        "options": [
+            "Yulianto Sudrajat",
+            "August Mellaz",
+            "Hasyim Asy’ari",
+            "Idham Holik"
+        ],
+        "answer": "August Mellaz",
+        "image": null
+    },
+    {
+        "id": 58,
+        "question": "Kepala Biro Keuangan KPU RI adalah?",
+        "options": [
+            "Yayu Yuliani",
+            "Andi Krisna",
+            "Nur Wakit Aliyusron",
+            "Suryadi"
+        ],
+        "answer": "Yayu Yuliani",
+        "image": null
+    },
+    {
+        "id": 59,
+        "question": "Apa tugas dari Inspektorat Wilayah dalam struktur KPU?",
+        "options": [
+            "Mengelola keuangan pusat",
+            "Mengawasi teknis Pemilu di daerah",
+            "Mengembangkan sistem informasi",
+            "Mengelola SDM nasional"
+        ],
+        "answer": "Mengawasi teknis Pemilu di daerah",
+        "image": null
+    },
+    {
+        "id": 60,
+        "question": "Siapa kepala Biro Umum di lingkungan KPU RI?",
+        "options": [
+            "Kusmanto R. Djo Naga",
+            "Yuli Hertaty",
+            "Mashur Sampurna Jaya",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Kusmanto R. Djo Naga",
+        "image": null
+    },
+    {
+        "id": 61,
+        "question": "Divisi Partisipasi dan Hubungan Masyarakat dikoordinasikan oleh siapa?",
+        "options": [
+            "Cahyo Ariawan",
+            "Betty Epsilon Idroos",
+            "Mashur Sampurna Jaya",
+            "Yuli Hertaty"
+        ],
+        "answer": "Cahyo Ariawan",
+        "image": null
+    },
+    {
+        "id": 62,
+        "question": "Siapa Wakil Koordinator Wilayah untuk Papua Barat, Kalsel, Aceh, Sulbar, dan Sumsel?",
+        "options": [
+            "Parsadaan Harahap",
+            "Idham Holik",
+            "August Mellaz",
+            "Yulianto Sudrajat"
+        ],
+        "answer": "Parsadaan Harahap",
+        "image": null
+    },
+    {
+        "id": 63,
+        "question": "Siapakah Inspektur Utama KPU RI saat ini?",
+        "options": [
+            "Nanang Priyatna",
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan"
+        ],
+        "answer": "Nanang Priyatna",
+        "image": null
+    },
+    {
+        "id": 64,
+        "question": "Divisi Perencanaan, Keuangan, Umum dan Logistik dipimpin oleh?",
+        "options": [
+            "Betty Epsilon Idroos",
+            "Idham Holik",
+            "Yulianto Sudrajat",
+            "August Mellaz"
+        ],
+        "answer": "Yulianto Sudrajat",
+        "image": null
+    },
+    {
+        "id": 65,
+        "question": "Berapa jumlah Deputi di bawah Sekretaris Jenderal KPU RI?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2",
+        "image": null
+    },
+    {
+        "id": 66,
+        "question": "Kepala Biro Hukum KPU RI saat ini adalah?",
+        "options": [
+            "Andi Krisna",
+            "Mashur Sampurna Jaya",
+            "Ilham",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Andi Krisna",
+        "image": null
+    },
+    {
+        "id": 67,
+        "question": "Siapakah Wakil Koordinator Wilayah untuk Sumatera Utara, Bengkulu, Kaltim, NTB, dan Sultra?",
+        "options": [
+            "Betty Epsilon Idroos",
+            "Yulianto Sudrajat",
+            "Mochammad Afifuddin",
+            "Idham Holik"
+        ],
+        "answer": "Yulianto Sudrajat",
+        "image": null
+    },
+    {
+        "id": 68,
+        "question": "Siapa Kepala Pusat Data dan Teknologi Informasi KPU?",
+        "options": [
+            "M. Syahrizal Iskandar",
+            "Mashur Sampurna Jaya",
+            "Novy Hasbhy Munnawar",
+            "Suryadi"
+        ],
+        "answer": "M. Syahrizal Iskandar",
+        "image": null
+    },
+    {
+        "id": 69,
+        "question": "Apakah nama kepala Biro SDM KPU?",
+        "options": [
+            "Yayu Yuliani",
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Ilham"
+        ],
+        "answer": "Yuli Hertaty",
+        "image": null
+    },
+    {
+        "id": 70,
+        "question": "Siapakah Deputi Bidang Administrasi KPU RI?",
+        "options": [
+            "Eberta Kawima",
+            "Suryadi",
+            "Mashur Sampurna Jaya",
+            "Bernad Dermawan"
+        ],
+        "answer": "Suryadi",
+        "image": "/images/deputi_administrasi.png"
+    }
+]
