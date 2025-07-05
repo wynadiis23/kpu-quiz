@@ -22,6 +22,7 @@ export default function Home() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [timer, setTimer] = useState(QUESTION_TIME_LIMIT);
+  const [showSummary, setShowSummary] = useState(false);
   const router = useRouter();
 
   const [quizType, setQuizType] = useState<'default' | 'sotk'>('default');
@@ -64,15 +65,16 @@ export default function Home() {
 
   const handleAnswerClick = (option: string | null) => {
     const updatedAnswers = [...selectedAnswers, option ?? ''];
-    console.log('Selected Answers:', updatedAnswers);
     setSelectedAnswers(updatedAnswers);
 
     const next = currentQuestion + 1;
     if (next < questions.length) {
       setCurrentQuestion(next);
     } else {
-      const correct = updatedAnswers.filter((ans, i) => ans.toLowerCase() === questions[i].answer.toLowerCase()).length;
-      console.log('Final Score:', correct);
+      setShowSummary(true); // Show summary before redirect
+      const correct = updatedAnswers.filter(
+        (ans, i) => questions[i] && ans.toLowerCase() === questions[i].answer.toLowerCase()
+      ).length;
 
       // Submit score to leaderboard
       fetch('/api/leaderboard', {
@@ -81,7 +83,8 @@ export default function Home() {
         body: JSON.stringify({ name: username, score: correct }),
       });
 
-      router.push(`/result?score=${correct}`);
+      // Delay redirect until after summary is shown
+      // router.push(`/result?score=${correct}`);
     }
   };
 
@@ -127,6 +130,43 @@ export default function Home() {
             disabled={!username.trim()}
           >
             Start Quiz
+          </button>
+        </div>
+      </main>
+    );
+  }
+
+  if (showSummary) {
+    return (
+      <main className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+        <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-xl text-center">
+          <h1 className="text-2xl font-bold mb-4">Quiz Summary</h1>
+          <ul className="space-y-4 mb-6 text-left">
+            {questions.map((q, i) => {
+              const userAnswer = selectedAnswers[i];
+              const isCorrect = userAnswer?.toLowerCase() === q.answer.toLowerCase();
+              return (
+                <li key={i} className="p-4 rounded-lg border bg-gray-50">
+                  <div className="font-semibold mb-1">Q{i + 1}: {q.question}</div>
+                  <div>
+                    <span className={isCorrect ? "text-green-600 font-bold" : "text-red-600 font-bold"}>
+                      Your Answer: {userAnswer || <span className="italic text-gray-400">No answer</span>}
+                    </span>
+                  </div>
+                  {!isCorrect && (
+                    <div>
+                      <span className="text-blue-600">Correct Answer: {q.answer}</span>
+                    </div>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+          <button
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg"
+            onClick={() => router.push(`/result?score=${selectedAnswers.filter((ans, i) => ans.toLowerCase() === questions[i].answer.toLowerCase()).length}`)}
+          >
+            Continue to Result
           </button>
         </div>
       </main>

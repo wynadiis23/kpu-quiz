@@ -1,14 +1,14 @@
 [
     {
         "id": 46,
-        "question": "Siapakah Ketua KPU RI periode 2022–2027?",
+        "question": "Siapakah Ketua KPU RI saat ini?",
         "options": [
             "Betty Epsilon Idroos",
-            "Idham Holik",
-            "Hasyim Asy’ari",
+            "Bernad Dermawan Sutrisno",
+            "Mochammad Afifuddin",
             "August Mellaz"
         ],
-        "answer": "Hasyim Asy’ari",
+        "answer": "Mochammad Afifuddin",
         "image": null
     },
     {
@@ -54,9 +54,9 @@
             "Yulianto Sudrajat",
             "Parsadaan Harahap",
             "Mochammad Afifuddin",
-            "Idham Holik"
+            "Iffa Rosita"
         ],
-        "answer": "Mochammad Afifuddin",
+        "answer": "Iffa Rosita",
         "image": null
     },
     {
@@ -181,7 +181,7 @@
     },
     {
         "id": 61,
-        "question": "Divisi Partisipasi dan Hubungan Masyarakat dikoordinasikan oleh siapa?",
+        "question": "Kepala Biro Partisipasi dan Hubungan Masyarakat dikoordinasikan oleh siapa?",
         "options": [
             "Cahyo Ariawan",
             "Betty Epsilon Idroos",
@@ -277,7 +277,7 @@
     },
     {
         "id": 69,
-        "question": "Apakah nama kepala Biro SDM KPU?",
+        "question": "Siapakah nama kepala Biro SDM KPU?",
         "options": [
             "Yayu Yuliani",
             "Yuli Hertaty",
@@ -298,5 +298,257 @@
         ],
         "answer": "Suryadi",
         "image": "/images/deputi_administrasi.png"
+    },
+    {
+        "id": 71,
+        "question": "Siapakah beliau?",
+        "options": [
+            "Andi Krisna",
+            "Mashur Sampurna Jaya",
+            "Ilham",
+            "Bernad Dermawan Sutrisno"
+        ],
+        "answer": "Bernad Dermawan Sutrisno",
+        "image": "/images/setjen_3.png"
+    },
+    {
+        "id": 72,
+        "question": "Gambar beliau dibawah ini menjabat sebagai?",
+        "options": [
+            "Inspektur Utama KPU RI",
+            "Inspektur Wilayah 1",
+            "Deputi Bidang Administrasi",
+            "Kepala Biro Hukum"
+        ],
+        "answer": "Inspektur Wilayah 1",
+        "image": "/images/insp_wil_satu1.png"
+    },
+    {
+        "id": 73,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Biro Teknis Penyelenggaraan Pemilu KPU RI.",
+        "options": [
+            "Yuli Hertaty",
+            "Mashur Sampurna Jaya",
+            "Melgia Carolina Van Harling",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Melgia Carolina Van Harling",
+        "image": "/images/biro_teknis_pemilu2.png"
+    },
+    {
+        "id": 74,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Biro Hukum KPU RI.",
+        "options": [
+            "Andi Krisna",
+            "Mashur Sampurna Jaya",
+            "Ilham",
+            "Bernad Dermawan Sutrisno"
+        ],
+        "answer": "Andi Krisna",
+        "image": "/images/biro_hukum2.png"
+    },
+    {
+        "id": 75,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Biro SDM KPU RI.",
+        "options": [
+            "Yayu Yuliani",
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Ilham"
+        ],
+        "answer": "Yuli Hertaty",
+        "image": "/images/biro_sdm2.png"
+    },
+    {
+        "id": 76,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Biro Keuangan KPU RI.",
+        "options": [
+            "Yayu Yuliani",
+            "Andi Krisna",
+            "Nur Wakit Aliyusron",
+            "Ilham"
+        ],
+        "answer": "Yayu Yuliani",
+        "image": "/images/biro_keuangan2.png"
+    },
+    {
+        "id": 77,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Biro Umum KPU RI.",
+        "options": [
+            "Kusmanto R. Djo Naga",
+            "Yuli Hertaty",
+            "Mashur Sampurna Jaya",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Kusmanto R. Djo Naga",
+        "image": "/images/biro_umum2.png"
+    },
+    {
+        "id": 78,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Biro Logistik KPU RI.",
+        "options": [
+            "Nur Wakit Aliyusron",
+            "Novy Hasbhy Munnawar",
+            "Kusmanto R. Djo Naga",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Novy Hasbhy Munnawar",
+        "image": "/images/biro_logistik2.png"
+    },
+    {
+        "id": 79,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Pusat Data dan Teknologi Informasi KPU RI.",
+        "options": [
+            "M. Syahrizal Iskandar",
+            "Mashur Sampurna Jaya",
+            "Novy Hasbhy Munnawar",
+            "Suryadi"
+        ],
+        "answer": "M. Syahrizal Iskandar",
+        "image": "/images/kapus_datin1.png"
+    },
+    {
+        "id": 80,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Kepala Pusat Pengembangan Kompetensi SDM KPU RI.",
+        "options": [
+            "Ilham",
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Ilham",
+        "image": "/images/kapus_pengembangan_sdm.png"
+    },
+    {
+        "id": 81,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Inspektur Utama KPU RI.",
+        "options": [
+            "Nanang Priyatna",
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan"
+        ],
+        "answer": "Nanang Priyatna",
+        "image": "/images/insp_utama1.png"
+    },
+    {
+        "id": 82,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Inspektur Wilayah 1 KPU RI.",
+        "options": [
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan",
+            "Nanang Priyatna"
+        ],
+        "answer": "Bakhtiar",
+        "image": "/images/insp_wil_satu1.png"
+    },
+    {
+        "id": 83,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Inspektur Wilayah 2 KPU RI.",
+        "options": [
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan",
+            "Nanang Priyatna",
+            "Bakhtiar"
+        ],
+        "answer": "Wahyu Yudi Wijayanti",
+        "image": "/images/insp_wil_dua1.png"
+    },
+    {
+        "id": 84,
+        "question": "Siapakah nama beliau? Dia menjabat sebagai Inspektur Wilayah 3 KPU RI.",
+        "options": [
+            "Asep Suhlan",
+            "Nanang Priyatna",
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti"
+        ],
+        "answer": "Asep Suhlan",
+        "image": "/images/insp_wil_tiga1.png"
+    },
+    {
+        "id": 85,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Mochammad Afifuddin",
+            "Kusmanto R. Djo Naga"
+        ],
+        "answer": "Mochammad Afifuddin",
+        "image": "/images/ketua_1.png"
+    },
+    {
+        "id": 86,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Andi Krisna",
+            "Mashur Sampurna Jaya",
+            "Ilham",
+            "Betty Epsilon Idroos"
+        ],
+        "answer": "Betty Epsilon Idroos",
+        "image": "/images/anggota1_1.png"
+    },
+    {
+        "id": 87,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yuli Hertaty",
+            "Parsadaan Harahap",
+            "Mochammad Afifuddin",
+            "Kusmanto R. Djo Naga"
+        ],
+        "answer": "Parsadaan Harahap",
+        "image": "/images/anggota3_1.png"
+    },
+    {
+        "id": 88,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yayu Yuliani",
+            "Yulianto Sudrajat",
+            "Mashur Sampurna Jaya",
+            "Ilham"
+        ],
+        "answer": "Yulianto Sudrajat",
+        "image": "/images/anggota4_1.png"
+    },
+    {
+        "id": 89,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Idham Holik",
+            "Mochammad Afifuddin",
+            "Parsadaan Harahap",
+            "Kusmanto R. Djo Naga"
+        ],
+        "answer": "Idham Holik",
+        "image": "/images/anggota5_1.png"
+    },
+    {
+        "id": 90,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Betty Epsilon Idroos",
+            "Yulianto Sudrajat",
+            "Mochammad Afifuddin",
+            "August Mellaz"
+        ],
+        "answer": "August Mellaz",
+        "image": "/images/anggota6_1.png"
+    },
+    {
+        "id": 91,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yuli Hertaty",
+            "Iffa Rosita",
+            "Mochammad Afifuddin",
+            "Kusmanto R. Djo Naga"
+        ],
+        "answer": "Iffa Rosita",
+        "image": "/images/anggota7_1.png"
     }
 ]
