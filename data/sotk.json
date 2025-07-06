@@ -550,5 +550,329 @@
         ],
         "answer": "Iffa Rosita",
         "image": "/images/anggota7_1.png"
+    },
+    {
+        "id": 92,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yayu Yuliani",
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Andi Krisna"
+        ],
+        "answer": "Andi Krisna",
+        "image": "/images/biro_hukum1.png"
+    },
+    {
+        "id": 93,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yayu Yuliani",
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Ilham"
+        ],
+        "answer": "Yuli Hertaty",
+        "image": "/images/biro_sdm1.png"
+    },
+    {
+        "id": 94,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Yayu Yuliani",
+            "Andi Krisna",
+            "Nur Wakit Aliyusron",
+            "Ilham"
+        ],
+        "answer": "Yayu Yuliani",
+        "image": "/images/biro_keuangan1.png"
+    },
+    {
+        "id": 95,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Kusmanto R. Djo Naga",
+            "Yuli Hertaty",
+            "Mashur Sampurna Jaya",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Kusmanto R. Djo Naga",
+        "image": "/images/biro_umum1.png"
+    },
+    {
+        "id": 96,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nur Wakit Aliyusron",
+            "Novy Hasbhy Munnawar",
+            "Kusmanto R. Djo Naga",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Novy Hasbhy Munnawar",
+        "image": "/images/biro_logistik1.png"
+    },
+    {
+        "id": 97,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "M. Syahrizal Iskandar",
+            "Mashur Sampurna Jaya",
+            "Novy Hasbhy Munnawar",
+            "Suryadi"
+        ],
+        "answer": "M. Syahrizal Iskandar",
+        "image": "/images/kapus_datin1.png"
+    },
+    {
+        "id": 98,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Ilham",
+            "Yuli Hertaty",
+            "Nur Wakit Aliyusron",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Ilham",
+        "image": "/images/kapus_pengembangan_sdm.png"
+    },
+    {
+        "id": 99,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti",
+            "Nur Wakit Aliyusron"
+        ],
+        "answer": "Nur Wakit Aliyusron",
+        "image": "/images/biro_pbjbmn2.png"
+    },
+    {
+        "id": 100,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan"
+        ],
+        "answer": "Asep Suhlan",
+        "image": "/images/insp_wil_tiga1.png"
+    },
+    {
+        "id": 101,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Bakhtiar",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan"
+        ],
+        "answer": "Wahyu Yudi Wijayanti",
+        "image": "/images/insp_wil_dua1.png"
+    },
+    {
+        "id": 102,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Eberta Kawima",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan"
+        ],
+        "answer": "Eberta Kawima",
+        "image": "/images/deputi_teknis1.png"
+    },
+    {
+        "id": 103,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Cahyo Ariawan",
+            "Wahyu Yudi Wijayanti",
+            "Asep Suhlan"
+        ],
+        "answer": "Cahyo Ariawan",
+        "image": "/images/biro_parmas1.png"
+    },
+    {
+        "id": 104,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Yuli Hertaty",
+            "Wahyu Yudi Wijayanti",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Cahyo Ariawan",
+        "image": "/images/biro_parmas2.png"
+    },
+    {
+        "id": 105,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Suryadi",
+            "Wahyu Yudi Wijayanti",
+            "Cahyo Ariawan"
+        ],
+        "answer": "Suryadi",
+        "image": "/images/deputi_administrasi3.png"
+    },
+    {
+        "id": 106,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Cahyo Ariawan",
+            "Yuli Hertaty",
+            "Wahyu Yudi Wijayanti",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Cahyo Ariawan",
+        "image": "/images/biro_parmas1.png"
+    },
+    {
+        "id": 107,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Cahyo Ariawan",
+            "Wahyu Yudi Wijayanti",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Cahyo Ariawan",
+        "image": "/images/biro_parmas2.png"
+    },
+    {
+        "id": 108,
+        "question": "Siapakah nama beliau?",
+        "options": [
+            "Nanang Priyatna",
+            "Yuli Hertaty",
+            "Wahyu Yudi Wijayanti",
+            "Mashur Sampurna Jaya"
+        ],
+        "answer": "Nanang Priyatna",
+        "image": "/images/insp_utama2.png"
+    },
+    {
+        "id": 109,
+        "question": "Apa jabatan tertinggi dalam struktur organisasi Sekretariat Jenderal KPU RI berdasarkan gambar?",
+        "options": [
+            "Deputi Bidang Administrasi",
+            "Sekretaris Jenderal",
+            "Deputi Bidang Dukungan Teknis",
+            "Inspektorat Utama"
+        ],
+        "answer": "Sekretaris Jenderal",
+        "image": null
+    },
+    {
+        "id": 110,
+        "question": "Di bawah Deputi Bidang Administrasi, terdapat berapa biro?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "5",
+        "image": null
+    },
+    {
+        "id": 111,
+        "question": "Biro apa yang menangani pengadaan barang/jasa dan barang milik negara?",
+        "options": [
+            "Biro Umum",
+            "Biro Keuangan",
+            "Biro Pengadaan Barang/Jasa dan Barang Milik Negara",
+            "Biro Perencanaan dan Organisasi"
+        ],
+        "answer": "Biro Pengadaan Barang/Jasa dan Barang Milik Negara",
+        "image": null
+    },
+    {
+        "id": 112,
+        "question": "Unit apa yang berada langsung di bawah Sekretariat Jenderal dan bukan di bawah Deputi manapun?",
+        "options": [
+            "Biro Hukum",
+            "Pusat Data dan Teknologi Informasi",
+            "Biro Keuangan",
+            "Biro Umum"
+        ],
+        "answer": "Pusat Data dan Teknologi Informasi",
+        "image": null
+    },
+    {
+        "id": 113,
+        "question": "Apa unit yang bertugas mengembangkan kompetensi sumber daya manusia di lingkungan KPU?",
+        "options": [
+            "Biro SDM",
+            "Biro Umum",
+            "Pusat Pengembangan Kompetensi SDM",
+            "Biro Perencanaan"
+        ],
+        "answer": "Pusat Pengembangan Kompetensi SDM",
+        "image": null
+    },
+    {
+        "id": 114,
+        "question": "Berikut ini merupakan biro di bawah Deputi Bidang Dukungan Teknis, kecuali:",
+        "options": [
+            "Biro Teknis Penyelenggaraan Pemilu",
+            "Biro Hukum",
+            "Biro Logistik",
+            "Biro Keuangan"
+        ],
+        "answer": "Biro Keuangan",
+        "image": null
+    },
+    {
+        "id": 115,
+        "question": "Biro Partisipasi dan Hubungan Masyarakat berada di bawah?",
+        "options": [
+            "Deputi Bidang Administrasi",
+            "Pusat Data dan Teknologi Informasi",
+            "Deputi Bidang Dukungan Teknis",
+            "Inspektorat Utama"
+        ],
+        "answer": "Deputi Bidang Dukungan Teknis",
+        "image": null
+    },
+    {
+        "id": 116,
+        "question": "Apa nama biro yang menangani logistik di lingkungan KPU?",
+        "options": [
+            "Biro Umum",
+            "Biro Logistik",
+            "Biro Hukum",
+            "Biro Perencanaan"
+        ],
+        "answer": "Biro Logistik",
+        "image": null
+    },
+    {
+        "id": 117,
+        "question": "Siapa yang mengoordinasikan Inspektorat Wilayah I, II, dan III?",
+        "options": [
+            "Deputi Bidang Administrasi",
+            "Sekretaris Jenderal",
+            "Deputi Bidang Teknis",
+            "Inspektorat Utama"
+        ],
+        "answer": "Inspektorat Utama",
+        "image": null
+    },
+    {
+        "id": 118,
+        "question": "Biro yang berperan dalam menyusun dan mengelola anggaran adalah?",
+        "options": [
+            "Biro Keuangan",
+            "Biro Umum",
+            "Biro Pengadaan",
+            "Biro Logistik"
+        ],
+        "answer": "Biro Keuangan",
+        "image": null
     }
 ]
