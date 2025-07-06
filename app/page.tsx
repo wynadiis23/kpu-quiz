@@ -148,6 +148,18 @@ export default function Home() {
               return (
                 <li key={i} className="p-4 rounded-lg border bg-gray-50">
                   <div className="font-semibold mb-1">Q{i + 1}: {q.question}</div>
+                  {q?.image && (
+                    <div className="mx-auto mb-4 max-h-48 rounded-lg shadow relative" style={{ width: '100%', height: '192px' }}>
+                      <Image
+                        src={q.image}
+                        alt="Question Illustration"
+                        layout="fill"
+                        objectFit="contain"
+                        className="rounded-lg"
+                        priority
+                      />
+                    </div>
+                  )}
                   <div>
                     <span className={isCorrect ? "text-green-600 font-bold" : "text-red-600 font-bold"}>
                       Your Answer: {userAnswer || <span className="italic text-gray-400">No answer</span>}
@@ -164,7 +176,7 @@ export default function Home() {
           </ul>
           <button
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg"
-            onClick={() => router.push(`/result?score=${selectedAnswers.filter((ans, i) => ans.toLowerCase() === questions[i].answer.toLowerCase()).length}`)}
+            onClick={() => router.push(`/result?score=${selectedAnswers.filter((ans, i) => questions[i] && ans.toLowerCase() === questions[i].answer.toLowerCase()).length}`)}
           >
             Continue to Result
           </button>
