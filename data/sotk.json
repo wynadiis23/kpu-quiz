@@ -723,12 +723,12 @@
         "id": 106,
         "question": "Siapakah nama beliau?",
         "options": [
-            "Nanang Priyatna",
+            "Cahyo Ariawan",
             "Yuli Hertaty",
             "Wahyu Yudi Wijayanti",
             "Mashur Sampurna Jaya"
         ],
-        "answer": "Mashur Sampurna Jaya",
+        "answer": "Cahyo Ariawan",
         "image": "/images/biro_parmas1.png"
     },
     {
@@ -736,11 +736,11 @@
         "question": "Siapakah nama beliau?",
         "options": [
             "Nanang Priyatna",
-            "Yuli Hertaty",
+            "Cahyo Ariawan",
             "Wahyu Yudi Wijayanti",
             "Mashur Sampurna Jaya"
         ],
-        "answer": "Mashur Sampurna Jaya",
+        "answer": "Cahyo Ariawan",
         "image": "/images/biro_parmas2.png"
     },
     {
