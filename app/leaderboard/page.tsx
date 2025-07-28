@@ -1,7 +1,5 @@
 // app/leaderboard/page.tsx
-import db from "@/lib/db";
 import Link from "next/link";
-import { LeaderBoardData } from "../../types/leaderboard.type";
 import { supabase } from "@/lib/supabase";
 export const dynamic = "force-dynamic"; // enable server-side fetching
 
@@ -17,6 +15,8 @@ export default async function LeaderboardPage() {
       ascending: false,
     })
     .limit(100);
+
+  console.log(error);
 
   return (
     <main className="min-h-screen bg-gray-100 flex justify-center items-center p-6">

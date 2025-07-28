@@ -1,4 +1,3 @@
-import db from "@/lib/db";
 import { supabase } from "@/lib/supabase";
 import { NextResponse } from "next/server";
 
@@ -15,7 +14,7 @@ export async function GET() {
       ascending: false,
     })
     .limit(10);
-  console.log(leaderboard);
+  console.log(leaderboard, error);
   return NextResponse.json(leaderboard);
 }
 
