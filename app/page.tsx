@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
-import quizData from '../data/quiz.json';
-import sotkData from '../data/sotk.json';
-import { useRouter } from 'next/navigation';
-import { generateRandomUsername } from '../utils/generateName';
-import { QuizData } from '../types/quiz.type';
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import quizData from "../data/quiz.json";
+import sotkData from "../data/sotk.json";
+import { useRouter } from "next/navigation";
+import { generateRandomUsername } from "../utils/generateName";
+import { QuizData } from "../types/quiz.type";
 
 const QUESTION_TIME_LIMIT = 15;
 
@@ -15,7 +15,7 @@ function shuffle<T>(array: T[]): T[] {
 }
 
 export default function Home() {
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState("");
   const [hasStarted, setHasStarted] = useState(false);
   const [questions, setQuestions] = useState<QuizData>([]);
   const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
@@ -23,15 +23,16 @@ export default function Home() {
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [timer, setTimer] = useState(QUESTION_TIME_LIMIT);
   const [showSummary, setShowSummary] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
   const router = useRouter();
 
-  const [quizType, setQuizType] = useState<'default' | 'sotk'>('default');
+  const [quizType, setQuizType] = useState<"default" | "sotk">("default");
 
   useEffect(() => {
     // Load quiz data based on selected type
-    if (quizType === 'default') {
+    if (quizType === "default") {
       setQuestions(shuffle(quizData));
-    } else if (quizType === 'sotk') {
+    } else if (quizType === "sotk") {
       setQuestions(shuffle(sotkData));
     }
   }, [quizType]);
@@ -55,40 +56,45 @@ export default function Home() {
 
   useEffect(() => {
     // Suggest random name on mount
-    setUsername(generateRandomUsername())
+    setUsername(generateRandomUsername());
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('username', username);
+    localStorage.setItem("username", username);
   }, [username]);
 
-
   const handleAnswerClick = (option: string | null) => {
-    const updatedAnswers = [...selectedAnswers, option ?? ''];
+    const updatedAnswers = [...selectedAnswers, option ?? ""];
     setSelectedAnswers(updatedAnswers);
 
     const next = currentQuestion + 1;
     if (next < questions.length) {
       setCurrentQuestion(next);
     } else {
-      setShowSummary(true); // Show summary before redirect
-      const correct = updatedAnswers.filter(
-        (ans, i) => questions[i] && ans.toLowerCase() === questions[i].answer.toLowerCase()
-      ).length;
+      if (!hasSubmitted) {
+        setHasSubmitted(true);
 
-      // Submit score to leaderboard
-      fetch('/api/leaderboard', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: username, score: correct }),
-      });
+        const correct = updatedAnswers.filter(
+          (ans, i) =>
+            questions[i] &&
+            ans.toLowerCase() === questions[i].answer.toLowerCase()
+        ).length;
 
-      // Delay redirect until after summary is shown
-      // router.push(`/result?score=${correct}`);
+        // Submit score to leaderboard
+        fetch("/api/leaderboard", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name: username, score: correct }),
+        });
+
+        // Show summary
+        setShowSummary(true);
+      }
     }
   };
 
-  if (questions.length === 0) return <p className="text-center mt-10">Loading quiz...</p>;
+  if (questions.length === 0)
+    return <p className="text-center mt-10">Loading quiz...</p>;
 
   const current = questions[currentQuestion];
 
@@ -98,17 +104,25 @@ export default function Home() {
         <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-md text-center">
           <h1 className="text-2xl font-bold mb-4">Welcome to the Quiz!</h1>
           <div className="mb-4 flex flex-col gap-2">
-            <span className="text-sm font-medium text-gray-700">Select Quiz:</span>
+            <span className="text-sm font-medium text-gray-700">
+              Select Quiz:
+            </span>
             <div className="flex gap-2 justify-center">
               <button
-                className={`px-4 py-2 rounded-lg border ${quizType === 'default' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
-                onClick={() => setQuizType('default')}
+                className={`px-4 py-2 rounded-lg border ${
+                  quizType === "default"
+                    ? "bg-blue-600 text-white"
+                    : "bg-gray-100"
+                }`}
+                onClick={() => setQuizType("default")}
               >
                 Default
               </button>
               <button
-                className={`px-4 py-2 rounded-lg border ${quizType === 'sotk' ? 'bg-blue-600 text-white' : 'bg-gray-100'}`}
-                onClick={() => setQuizType('sotk')}
+                className={`px-4 py-2 rounded-lg border ${
+                  quizType === "sotk" ? "bg-blue-600 text-white" : "bg-gray-100"
+                }`}
+                onClick={() => setQuizType("sotk")}
               >
                 SOTK
               </button>
@@ -116,7 +130,9 @@ export default function Home() {
             </div>
           </div>
           <label className="block mb-4 text-left">
-            <span className="text-sm font-medium text-gray-700">Enter your name:</span>
+            <span className="text-sm font-medium text-gray-700">
+              Enter your name:
+            </span>
             <input
               type="text"
               value={username}
@@ -144,12 +160,18 @@ export default function Home() {
           <ul className="space-y-4 mb-6 text-left">
             {questions.map((q, i) => {
               const userAnswer = selectedAnswers[i];
-              const isCorrect = userAnswer?.toLowerCase() === q.answer.toLowerCase();
+              const isCorrect =
+                userAnswer?.toLowerCase() === q.answer.toLowerCase();
               return (
                 <li key={i} className="p-4 rounded-lg border bg-gray-50">
-                  <div className="font-semibold mb-1">Q{i + 1}: {q.question}</div>
+                  <div className="font-semibold mb-1">
+                    Q{i + 1}: {q.question}
+                  </div>
                   {q?.image && (
-                    <div className="mx-auto mb-4 max-h-48 rounded-lg shadow relative" style={{ width: '100%', height: '192px' }}>
+                    <div
+                      className="mx-auto mb-4 max-h-48 rounded-lg shadow relative"
+                      style={{ width: "100%", height: "192px" }}
+                    >
                       <Image
                         src={q.image}
                         alt="Question Illustration"
@@ -161,13 +183,24 @@ export default function Home() {
                     </div>
                   )}
                   <div>
-                    <span className={isCorrect ? "text-green-600 font-bold" : "text-red-600 font-bold"}>
-                      Your Answer: {userAnswer || <span className="italic text-gray-400">No answer</span>}
+                    <span
+                      className={
+                        isCorrect
+                          ? "text-green-600 font-bold"
+                          : "text-red-600 font-bold"
+                      }
+                    >
+                      Your Answer:{" "}
+                      {userAnswer || (
+                        <span className="italic text-gray-400">No answer</span>
+                      )}
                     </span>
                   </div>
                   {!isCorrect && (
                     <div>
-                      <span className="text-blue-600">Correct Answer: {q.answer}</span>
+                      <span className="text-blue-600">
+                        Correct Answer: {q.answer}
+                      </span>
                     </div>
                   )}
                 </li>
@@ -176,7 +209,17 @@ export default function Home() {
           </ul>
           <button
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg"
-            onClick={() => router.push(`/result?score=${selectedAnswers.filter((ans, i) => questions[i] && ans.toLowerCase() === questions[i].answer.toLowerCase()).length}`)}
+            onClick={() =>
+              router.push(
+                `/result?score=${
+                  selectedAnswers.filter(
+                    (ans, i) =>
+                      questions[i] &&
+                      ans.toLowerCase() === questions[i].answer.toLowerCase()
+                  ).length
+                }`
+              )
+            }
           >
             Continue to Result
           </button>
@@ -191,7 +234,10 @@ export default function Home() {
         <h1 className="text-2xl font-bold mb-2">Quiz App</h1>
         <p className="text-red-500 font-semibold mb-4">⏳ {timer}s</p>
         {current?.image && (
-          <div className="mx-auto mb-4 max-h-48 rounded-lg shadow relative" style={{ width: '100%', height: '192px' }}>
+          <div
+            className="mx-auto mb-4 max-h-48 rounded-lg shadow relative"
+            style={{ width: "100%", height: "192px" }}
+          >
             <Image
               src={current.image}
               alt="Question Illustration"
